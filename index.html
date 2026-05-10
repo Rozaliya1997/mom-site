@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Венера Хафизова — бухгалтерское сопровождение в Ижевске</title>
+<meta name="description" content="Бухгалтерское сопровождение ИП и ООО. Налоги, отчётность, кадры, маркетплейсы. 30+ лет опыта. Ижевск и удалённо по всей России." />
+<meta name="theme-color" content="#F7F2E8" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Венера Хафизова — бухгалтерское сопровождение" />
+<meta property="og:description" content="ИП, ООО, маркетплейсы. 30+ лет опыта. Ижевск и удалённо." />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="ru_RU" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --bg: #F7F2E8;
+    --bg-alt: #F0E9DA;
+    --surface: #FFFFFF;
+    --text: #1F1A12;
+    --text-muted: #6B5F4D;
+    --accent: #2D4A3E;
+    --accent-soft: #E8E0D0;
+    --accent-hover: #1F362C;
+    --border: #D9CFB8;
+    --border-soft: #E8DFCB;
+    --shadow-sm: 0 1px 2px rgba(31, 26, 18, 0.04);
+    --shadow-md: 0 4px 16px rgba(31, 26, 18, 0.06);
+    --shadow-lg: 0 12px 40px rgba(31, 26, 18, 0.10);
+
+    --font-serif: 'Fraunces', 'Times New Roman', serif;
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+    --container: 1200px;
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: var(--font-sans);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  button { font-family: inherit; cursor: pointer; border: none; background: none; }
+
+  ::selection { background: var(--accent); color: var(--bg); }
+
+  .container {
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ====== HEADER ====== */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(247, 242, 232, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    max-width: var(--container);
+    margin: 0 auto;
+  }
+  .logo {
+    display: inline-flex;
+    align-items: baseline;
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: -0.005em;
+    color: var(--text);
+    line-height: 1;
+    transition: color 0.2s;
+  }
+  .logo em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--accent);
+    margin-left: 0.3em;
+  }
+  .logo:hover { color: var(--accent); }
+  .nav {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  .nav a {
+    font-size: 14px;
+    color: var(--text-muted);
+    transition: color 0.2s;
+  }
+  .nav a:hover { color: var(--text); }
+  .nav-cta {
+    background: var(--accent);
+    color: var(--bg) !important;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.2s;
+  }
+  .nav-cta:hover { background: var(--accent-hover); }
+  .menu-toggle { display: none; }
+  @media (max-width: 768px) {
+    .nav-link-text { display: none; }
+    .nav { gap: 12px; }
+  }
+
+  /* ====== HERO ====== */
+  .hero {
+    padding: 80px 0 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    margin-bottom: 28px;
+  }
+  .eyebrow::before {
+    content: '';
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+  .hero h1 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(40px, 5.5vw, 72px);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    margin-bottom: 28px;
+  }
+  .hero h1 em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--accent);
+  }
+  .hero-lead {
+    font-size: 18px;
+    line-height: 1.65;
+    color: var(--text-muted);
+    margin-bottom: 40px;
+    max-width: 520px;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 28px;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.25s;
+    white-space: nowrap;
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: var(--bg);
+  }
+  .btn-primary:hover {
+    background: var(--accent-hover);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+  }
+  .btn-secondary {
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+  .btn-secondary:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .btn svg { width: 16px; height: 16px; }
+
+  .hero-image-wrap {
+    position: relative;
+  }
+  .hero-image {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 4 / 5;
+    background: #1F1A12;
+  }
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+  }
+  .hero-image::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    pointer-events: none;
+  }
+  .hero-badge {
+    position: absolute;
+    bottom: -28px;
+    left: -28px;
+    background: var(--surface);
+    padding: 24px 28px;
+    border-radius: 8px;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border-soft);
+    z-index: 2;
+  }
+  .hero-badge-num {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+  .hero-badge-label {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  @media (max-width: 900px) {
+    .hero { padding: 48px 0 80px; }
+    .hero-grid { grid-template-columns: 1fr; gap: 56px; }
+    .hero-image-wrap { max-width: 480px; margin: 0 auto; }
+    .hero-badge { left: -16px; bottom: -20px; padding: 18px 22px; }
+    .hero-badge-num { font-size: 36px; }
+  }
+
+  /* ====== SECTION COMMONS ====== */
+  section { padding: 100px 0; }
+  @media (max-width: 768px) { section { padding: 72px 0; } }
+
+  .section-eyebrow {
+    font-size: 13px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  .section-title {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(32px, 4vw, 48px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+  }
+  .section-title em {
+    font-style: italic;
+    color: var(--accent);
+  }
+  .section-lead {
+    font-size: 18px;
+    color: var(--text-muted);
+    line-height: 1.65;
+    max-width: 640px;
+  }
+
+  /* ====== ABOUT ====== */
+  .about {
+    background: var(--bg-alt);
+    border-top: 1px solid var(--border-soft);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .about-image {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 4 / 5;
+    background: #1F1A12;
+    box-shadow: var(--shadow-md);
+  }
+  .about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .about-content p {
+    font-size: 17px;
+    line-height: 1.75;
+    color: var(--text);
+    margin-bottom: 20px;
+  }
+  .about-content p:last-of-type { margin-bottom: 36px; }
+  .about-tagline {
+    font-family: var(--font-serif) !important;
+    font-size: 26px !important;
+    line-height: 1.35 !important;
+    color: var(--text-muted) !important;
+    margin: 16px 0 36px !important;
+    max-width: 480px;
+  }
+  .about-tagline em {
+    font-style: italic;
+    color: var(--accent);
+  }
+  .about-quote {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.4;
+    color: var(--accent);
+    padding-left: 24px;
+    border-left: 2px solid var(--accent);
+    margin-top: 32px;
+  }
+  @media (max-width: 900px) {
+    .about-grid { grid-template-columns: 1fr; gap: 48px; }
+    .about-image { max-width: 400px; }
+  }
+
+  /* ====== STATS ====== */
+  .stats {
+    padding: 60px 0;
+    border-top: 1px solid var(--border-soft);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+  }
+  .stat {
+    text-align: center;
+  }
+  .stat-num {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 1;
+    color: var(--accent);
+    margin-bottom: 8px;
+    letter-spacing: -0.02em;
+  }
+  .stat-label {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+  @media (max-width: 768px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 32px 24px; }
+    .stat-num { font-size: 44px; }
+  }
+
+  /* ====== SERVICES ====== */
+  .services-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: end;
+    margin-bottom: 64px;
+  }
+  @media (max-width: 900px) {
+    .services-header { grid-template-columns: 1fr; gap: 24px; margin-bottom: 48px; }
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background: var(--border-soft);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+  }
+  @media (max-width: 768px) { .services-grid { grid-template-columns: 1fr; } }
+  .service {
+    background: var(--surface);
+    padding: 36px;
+    transition: background 0.25s;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .service:hover { background: var(--bg-alt); }
+  .service-icon {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+  }
+  .service-icon svg { width: 20px; height: 20px; }
+  .service h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 10px;
+    line-height: 1.25;
+  }
+  .service p {
+    color: var(--text-muted);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* ====== PROCESS ====== */
+  .process {
+    background: var(--bg-alt);
+    border-top: 1px solid var(--border-soft);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .process-header { text-align: center; margin-bottom: 64px; max-width: 720px; margin-inline: auto; }
+  .process-header .section-lead { margin: 0 auto; }
+  .process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    position: relative;
+  }
+  .process-grid::before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 12%;
+    right: 12%;
+    height: 1px;
+    background: var(--border);
+    z-index: 0;
+  }
+  @media (max-width: 900px) {
+    .process-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 24px; }
+    .process-grid::before { display: none; }
+  }
+  @media (max-width: 480px) {
+    .process-grid { grid-template-columns: 1fr; }
+  }
+  .step {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  .step-num {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: var(--surface);
+    border: 1.5px solid var(--accent);
+    color: var(--accent);
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .step h4 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 8px;
+  }
+  .step p {
+    color: var(--text-muted);
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  /* ====== TRUST ====== */
+  .trust-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 56px;
+  }
+  @media (max-width: 768px) { .trust-grid { grid-template-columns: 1fr; } }
+  .trust-card {
+    padding: 32px;
+    background: var(--surface);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius-md);
+  }
+  .trust-card-num {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--accent);
+    margin-bottom: 16px;
+  }
+  .trust-card h4 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 12px;
+    line-height: 1.3;
+  }
+  .trust-card p {
+    color: var(--text-muted);
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  /* ====== BLOG ====== */
+  .blog-section {
+    background: var(--bg-alt);
+    border-top: 1px solid var(--border-soft);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .blog-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: end;
+    margin-bottom: 64px;
+  }
+  @media (max-width: 900px) {
+    .blog-header { grid-template-columns: 1fr; gap: 24px; margin-bottom: 48px; }
+  }
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  @media (max-width: 900px) { .blog-grid { grid-template-columns: 1fr; gap: 20px; } }
+
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius-md);
+    padding: 32px 28px 28px;
+    transition: all 0.25s ease;
+    color: var(--text);
+    position: relative;
+  }
+  .blog-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 40px rgba(31, 26, 18, 0.08);
+    border-color: var(--accent);
+  }
+  .blog-card-tag {
+    display: inline-block;
+    align-self: flex-start;
+    padding: 4px 10px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-radius: 999px;
+    margin-bottom: 24px;
+  }
+  .blog-card-meta {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+  .blog-card h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+  .blog-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--text-muted);
+    flex: 1;
+    margin-bottom: 28px;
+  }
+  .blog-card-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--accent);
+    transition: gap 0.2s;
+  }
+  .blog-card:hover .blog-card-link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  /* ====== FORM ====== */
+  .form-section {
+    background: var(--accent);
+    color: var(--bg);
+  }
+  .form-section .section-eyebrow { color: rgba(247, 242, 232, 0.7); }
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 80px;
+    align-items: start;
+  }
+  @media (max-width: 900px) {
+    .form-grid { grid-template-columns: 1fr; gap: 48px; }
+  }
+  .form-section h2 { color: var(--bg); }
+  .form-section .section-title em {
+    color: #C9A961;
+    font-style: italic;
+  }
+  .form-section .section-lead { color: rgba(247, 242, 232, 0.8); margin-bottom: 32px; }
+  .form-info-list {
+    list-style: none;
+    margin-top: 32px;
+  }
+  .form-info-list li {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    padding: 12px 0;
+    color: rgba(247, 242, 232, 0.85);
+    font-size: 15px;
+    border-top: 1px solid rgba(247, 242, 232, 0.12);
+  }
+  .form-info-list li:first-child { border-top: none; }
+  .form-info-list svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #C9A961;
+    margin-top: 2px;
+  }
+
+  .form-card {
+    background: var(--bg);
+    color: var(--text);
+    padding: 40px;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.2);
+  }
+  @media (max-width: 480px) { .form-card { padding: 28px 24px; } }
+  .form-row {
+    margin-bottom: 20px;
+  }
+  .form-row.two-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  @media (max-width: 480px) { .form-row.two-cols { grid-template-columns: 1fr; } }
+  .form-row label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+  .form-row label .req { color: #B23B3B; }
+  .form-row input,
+  .form-row select,
+  .form-row textarea {
+    width: 100%;
+    padding: 13px 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    font-family: inherit;
+    font-size: 15px;
+    color: var(--text);
+    transition: all 0.2s;
+  }
+  .form-row input:focus,
+  .form-row select:focus,
+  .form-row textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(45, 74, 62, 0.12);
+  }
+  .form-row textarea {
+    min-height: 100px;
+    resize: vertical;
+    font-family: inherit;
+  }
+  .form-submit {
+    width: 100%;
+    background: var(--accent);
+    color: var(--bg);
+    padding: 16px 24px;
+    border-radius: var(--radius-md);
+    font-size: 15px;
+    font-weight: 500;
+    transition: background 0.2s;
+    margin-top: 8px;
+  }
+  .form-submit:hover { background: var(--accent-hover); }
+  .form-submit:disabled { opacity: 0.6; cursor: wait; }
+  .form-fineprint {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: center;
+    margin-top: 16px;
+    line-height: 1.5;
+  }
+  .form-success {
+    display: none;
+    text-align: center;
+    padding: 24px 0;
+  }
+  .form-success.active { display: block; }
+  .form-success-icon {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 16px;
+    border-radius: 50%;
+    background: var(--accent-soft);
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-success h3 {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .form-success p {
+    color: var(--text-muted);
+    font-size: 15px;
+  }
+
+  /* ====== FOOTER ====== */
+  footer {
+    background: var(--bg);
+    padding: 64px 0 32px;
+    border-top: 1px solid var(--border-soft);
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 48px;
+  }
+  @media (max-width: 768px) {
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+  }
+  .footer-brand p {
+    color: var(--text-muted);
+    font-size: 14px;
+    margin-top: 16px;
+    line-height: 1.6;
+    max-width: 320px;
+  }
+  .footer-col h5 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 16px;
+  }
+  .footer-col ul { list-style: none; }
+  .footer-col li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+  .footer-col a:hover { color: var(--accent); }
+  .footer-bottom {
+    padding-top: 32px;
+    border-top: 1px solid var(--border-soft);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  /* Reveal animations */
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  .reveal.in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="#" class="logo" aria-label="Венера Хафизова — главная">
+      Венера<em>Хафизова</em>
+    </a>
+    <nav class="nav">
+      <a href="#about" class="nav-link-text">О бухгалтере</a>
+      <a href="#services" class="nav-link-text">Услуги</a>
+      <a href="#blog" class="nav-link-text">Блог</a>
+      <a href="#contact" class="nav-cta">Записаться</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <div class="eyebrow">Бухгалтер · Ижевск и удалённо</div>
+      <h1>Бухгалтерия,<br/>которой можно <em>доверить</em><br/>свой бизнес.</h1>
+      <p class="hero-lead">
+        Веду учёт малого и среднего бизнеса с 1993 года.
+        Беру на себя налоги, отчётность, кадры и работу с маркетплейсами —
+        чтобы вы могли спокойно заниматься делом.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">
+          Записаться на консультацию
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a href="https://wa.me/79630631515" class="btn btn-secondary" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.92L4 20l4.18-1.1a7.93 7.93 0 0 0 3.87 1h.01c4.38 0 7.95-3.57 7.95-7.95a7.9 7.9 0 0 0-2.4-5.63zm-5.55 12.2h-.01a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.48.65.66-2.42-.16-.25a6.6 6.6 0 0 1-1.01-3.5 6.61 6.61 0 0 1 11.28-4.67 6.55 6.55 0 0 1 1.94 4.68 6.61 6.61 0 0 1-6.62 6.57zm3.62-4.93c-.2-.1-1.17-.58-1.36-.64-.18-.07-.31-.1-.45.1-.13.2-.51.64-.62.77-.12.13-.23.15-.42.05-.2-.1-.84-.31-1.6-.99a6 6 0 0 1-1.1-1.37c-.12-.2-.01-.3.09-.4.09-.09.2-.23.3-.35.1-.12.13-.2.2-.33.06-.13.03-.25-.02-.35-.05-.1-.45-1.08-.61-1.48-.16-.39-.33-.34-.45-.34l-.39-.01a.74.74 0 0 0-.54.25 2.27 2.27 0 0 0-.71 1.69c0 1 .73 1.96.83 2.1.1.13 1.43 2.18 3.46 3.06.48.21.86.33 1.16.43.49.16.93.13 1.28.08.39-.06 1.17-.48 1.34-.94.16-.46.16-.86.12-.94-.05-.08-.18-.13-.38-.23z"/></svg>
+          Написать в WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="hero-image-wrap reveal">
+      <div class="hero-image">
+        <img src="assets/hero.jpg" alt="Венера Хафизова, бухгалтер с 30+ летним опытом" loading="eager" />
+      </div>
+      <div class="hero-badge">
+        <div class="hero-badge-num">30+</div>
+        <div class="hero-badge-label">лет в профессии<br/>главным бухгалтером</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-image reveal">
+      <img src="assets/about.jpg" alt="Венера Робертовна Хафизова" loading="lazy" />
+    </div>
+    <div class="about-content reveal">
+      <div class="section-eyebrow">О бухгалтере</div>
+      <h2 class="section-title">Хафизова<br/>Венера Робертовна</h2>
+      <p class="about-tagline"><em>Надёжный партнёр</em> вашего бизнеса.</p>
+      <p>
+        Более 30 лет работаю главным бухгалтером.
+        За это время прошла все формы налогообложения, виды деятельности
+        и масштабы — от индивидуальных предпринимателей до крупных компаний.
+      </p>
+      <p>
+        Сегодня веду на сопровождении малый и средний бизнес: ИП и ООО на УСН,
+        патенте, НПД, ОСНО. Работаю как с офлайн-бизнесом в Ижевске,
+        так и удалённо — с предпринимателями по всей России.
+      </p>
+      <div class="about-quote">
+        «Бухгалтер — это не про цифры. Это про спокойствие
+        и уверенность собственника в завтрашнем дне.»
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat reveal">
+        <div class="stat-num">30+</div>
+        <div class="stat-label">лет опыта<br/>главным бухгалтером</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat-num" style="font-size:36px;line-height:1.1;">УСН · ОСНО<br/>патент · НПД</div>
+        <div class="stat-label">все системы<br/>налогообложения</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat-num" style="font-size:44px;">ИП · ООО</div>
+        <div class="stat-label">любая организационно-<br/>правовая форма</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">сдача отчётности<br/>в срок</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services">
+  <div class="container">
+    <div class="services-header reveal">
+      <div>
+        <div class="section-eyebrow">Услуги</div>
+        <h2 class="section-title">Полное бухгалтерское<br/>сопровождение под <em>ключ</em>.</h2>
+      </div>
+      <p class="section-lead">
+        Беру на себя всё, что связано с учётом и отчётностью.
+        Вы освобождаете время для развития бизнеса —
+        и точно знаете, что бухгалтерия в порядке.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11H5a2 2 0 0 0-2 2v7h18v-7a2 2 0 0 0-2-2h-4M9 11V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6M9 11h6"/></svg>
+        </div>
+        <div>
+          <h3>Ведение ИП</h3>
+          <p>УСН «доходы» и «доходы минус расходы», патент, НПД (самозанятость). Расчёт налогов, ведение КУДиР, сдача деклараций.</p>
+        </div>
+      </div>
+
+      <div class="service reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zM9 22V12h6v10"/></svg>
+        </div>
+        <div>
+          <h3>Ведение ООО</h3>
+          <p>УСН и ОСНО. Полный учёт: первичка, банк, касса, основные средства, баланс, прибыль, дивиденды.</p>
+        </div>
+      </div>
+
+      <div class="service reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+        </div>
+        <div>
+          <h3>Налоговая отчётность</h3>
+          <p>Отчётность в ФНС и СФР: декларации, расчёты, уведомления, ЕНС. Своевременная сдача без штрафов и пеней.</p>
+        </div>
+      </div>
+
+      <div class="service reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div>
+          <h3>Кадры и зарплата</h3>
+          <p>Кадровое делопроизводство, расчёт зарплаты, отпускных, больничных, страховых взносов и НДФЛ.</p>
+        </div>
+      </div>
+
+      <div class="service reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.3 2.3a1 1 0 0 0 .7 1.7H17M9 21a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+        </div>
+        <div>
+          <h3>Маркетплейсы</h3>
+          <p>Wildberries, Ozon, Яндекс Маркет. Учёт комиссий, возвратов, выплат площадки, расчёт реальной прибыли.</p>
+        </div>
+      </div>
+
+      <div class="service reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12a9 9 0 1 1-6.22-8.56M21 3v6h-6M21 12c-2.5 1.4-7 2-9 0"/></svg>
+        </div>
+        <div>
+          <h3>Восстановление учёта</h3>
+          <p>Если запустили дела или поменяли бухгалтера — восстановлю учёт за прошлые периоды и приведу всё в порядок.</p>
+        </div>
+      </div>
+
+      <div class="service reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <div>
+          <h3>Консультации</h3>
+          <p>Помощь с выбором системы налогообложения, оптимизацией налогов, открытием/закрытием ИП и ООО.</p>
+        </div>
+      </div>
+
+      <div class="service reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM9 12l2 2 4-4"/></svg>
+        </div>
+        <div>
+          <h3>Подготовка к проверкам</h3>
+          <p>Сопровождение камеральных и выездных проверок, подготовка документов, ответы на требования налоговой.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Process -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="process-header reveal">
+      <div class="section-eyebrow">Как мы работаем</div>
+      <h2 class="section-title">Просто и <em>прозрачно</em>.</h2>
+      <p class="section-lead">
+        От первого звонка до постоянного сопровождения —
+        всего четыре понятных шага без сюрпризов.
+      </p>
+    </div>
+
+    <div class="process-grid">
+      <div class="step reveal">
+        <div class="step-num">1</div>
+        <h4>Звонок</h4>
+        <p>Бесплатно обсудим ваш бизнес, текущую ситуацию и задачи.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">2</div>
+        <h4>Анализ</h4>
+        <p>Я смотрю текущие документы, оцениваю объём и риски.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">3</div>
+        <h4>Договор</h4>
+        <p>Согласуем стоимость и подпишем договор с понятными условиями.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">4</div>
+        <h4>Работа</h4>
+        <p>Веду учёт, сдаю отчётность, всегда на связи по любым вопросам.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust / Why me -->
+<section>
+  <div class="container">
+    <div class="reveal" style="max-width:720px;">
+      <div class="section-eyebrow">Почему мне доверяют</div>
+      <h2 class="section-title">Не просто бухгалтер —<br/><em>партнёр</em> вашего бизнеса.</h2>
+    </div>
+
+    <div class="trust-grid">
+      <div class="trust-card reveal">
+        <div class="trust-card-num">— 01</div>
+        <h4>Опыт, который не подведёт</h4>
+        <p>Более 30 лет работы главным бухгалтером в разных отраслях. Знаю все нюансы законодательства и его постоянные изменения.</p>
+      </div>
+      <div class="trust-card reveal">
+        <div class="trust-card-num">— 02</div>
+        <h4>Личный подход</h4>
+        <p>Я веду небольшое количество клиентов лично — без call-центров и младших сотрудников. Вы всегда работаете напрямую со мной.</p>
+      </div>
+      <div class="trust-card reveal">
+        <div class="trust-card-num">— 03</div>
+        <h4>Спокойствие собственника</h4>
+        <p>Никаких просрочек, штрафов и неожиданных писем из налоговой. Вы знаете, что бухгалтерия в надёжных руках.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Blog -->
+<section class="blog-section" id="blog">
+  <div class="container">
+    <div class="blog-header reveal">
+      <div>
+        <div class="section-eyebrow">Полезное</div>
+        <h2 class="section-title">Статьи для<br/><em>предпринимателей</em>.</h2>
+      </div>
+      <p class="section-lead">
+        Разбираю изменения в законах простым языком — чтобы вы понимали,
+        что происходит и как это касается именно вашего бизнеса.
+      </p>
+    </div>
+
+    <div class="blog-grid">
+      <a href="blog/nds-na-usn-2026.html" class="blog-card reveal">
+        <div class="blog-card-tag">Налоговая реформа</div>
+        <div class="blog-card-meta">28 апреля 2026 · 7 минут</div>
+        <h3>НДС на УСН с 2026 года: что изменилось и как готовиться</h3>
+        <p>Лимит освобождения снижен втрое — с 60 до 20 миллионов рублей. Базовая ставка НДС выросла до 22 %. Разбираем три сценария по выручке и как выбрать между ставками 5/7 % и 22 %.</p>
+        <span class="blog-card-link">Читать статью →</span>
+      </a>
+
+      <a href="blog/patent-2026.html" class="blog-card reveal">
+        <div class="blog-card-tag">Патент</div>
+        <div class="blog-card-meta">22 апреля 2026 · 5 минут</div>
+        <h3>Патент в 2026: что делать, если оборот больше 20 миллионов</h3>
+        <p>Лимит ПСН снижен с 60 до 20 миллионов рублей и продолжит снижаться. Какие виды деятельности убрали, как считается лимит при совмещении с УСН и куда переходить, если право на патент потеряно.</p>
+        <span class="blog-card-link">Читать статью →</span>
+      </a>
+
+      <a href="blog/marketplaces-2026.html" class="blog-card reveal">
+        <div class="blog-card-tag">Маркетплейсы</div>
+        <div class="blog-card-meta">5 мая 2026 · 8 минут</div>
+        <h3>Маркетплейсы и ФНС с октября 2026: что нужно знать селлерам</h3>
+        <p>С 1 октября вступает в силу закон 289-ФЗ. Wildberries, Ozon и Яндекс Маркет официально становятся партнёрами налоговой и будут передавать данные о продажах автоматически. Что это значит для продавцов.</p>
+        <span class="blog-card-link">Читать статью →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Form / Contact -->
+<section class="form-section" id="contact">
+  <div class="container form-grid">
+    <div class="form-text reveal">
+      <div class="section-eyebrow">Связаться</div>
+      <h2 class="section-title">Запишитесь<br/>на бесплатную <em>консультацию</em>.</h2>
+      <p class="section-lead">
+        Расскажите коротко о вашем бизнесе, я перезвоню в удобное время.
+        На звонке честно скажу, чем могу помочь и сколько это будет стоить —
+        без обязательств с вашей стороны.
+      </p>
+
+      <ul class="form-info-list">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="tel:+79630631515">+7 963 063 15 15</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zM22 6l-10 7L2 6"/></svg>
+          <a href="mailto:hafizovavenera@mail.ru">hafizovavenera@mail.ru</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Ижевск, Россия — и удалённо по всей стране</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>Отвечаю в течение рабочего дня</span>
+        </li>
+      </ul>
+    </div>
+
+    <form class="form-card reveal" id="contactForm" action="https://script.google.com/macros/s/AKfycby5EujFubMCA78CB9sVEQcr7CTOh9fCX5ptfE16TTZfRA3IBDdzAzRByuct3fMt1OHO/exec">
+      <!-- ⚠️ Замените PASTE_YOUR_GOOGLE_APPS_SCRIPT_URL_HERE выше на свой URL веб-приложения Google Apps Script. См. файл GOOGLE-SHEETS-SETUP.md -->
+      <!-- Honey-pot field для защиты от ботов (если бот заполнит — отправка проигнорируется) -->
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+
+      <div id="formFields">
+        <div class="form-row">
+          <label for="name">Как вас зовут <span class="req">*</span></label>
+          <input type="text" id="name" name="Имя" required placeholder="Например, Иван" />
+        </div>
+
+        <div class="form-row two-cols">
+          <div>
+            <label for="phone">Телефон <span class="req">*</span></label>
+            <input type="tel" id="phone" name="Телефон" required placeholder="+7 ___ ___ __ __" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" placeholder="вашe@почта.ru" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="business">Что у вас за бизнес <span class="req">*</span></label>
+          <select id="business" name="Тип бизнеса" required>
+            <option value="">Выберите вариант</option>
+            <option>ИП (самозанятость / НПД)</option>
+            <option>ИП на патенте</option>
+            <option>ИП на УСН</option>
+            <option>ООО на УСН</option>
+            <option>ООО на ОСНО</option>
+            <option>Маркетплейсы (Wildberries, Ozon и др.)</option>
+            <option>Только планирую открывать</option>
+            <option>Другое</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="task">С чем нужна помощь</label>
+          <textarea id="task" name="Задача" placeholder="Например: ведение ИП на УСН с маркетплейсами, или восстановление учёта за 2024 год..."></textarea>
+        </div>
+
+        <div class="form-row">
+          <label for="time">Удобное время для звонка</label>
+          <input type="text" id="time" name="Удобное время" placeholder="Например: будни после 18:00" />
+        </div>
+
+        <button type="submit" class="form-submit" id="submitBtn">Отправить заявку</button>
+        <p class="form-fineprint">
+          Нажимая кнопку, вы соглашаетесь на обработку персональных данных.
+          Мы используем их только для связи с вами.
+        </p>
+      </div>
+
+      <div class="form-success" id="formSuccess">
+        <div class="form-success-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+        </div>
+        <h3>Заявка отправлена!</h3>
+        <p>Венера Робертовна свяжется с вами в течение рабочего дня.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Венера<em>Хафизова</em></div>
+        <p>Бухгалтерское сопровождение малого и среднего бизнеса. Ижевск и удалённо по всей России.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Услуги</h5>
+        <ul>
+          <li><a href="#services">Ведение ИП</a></li>
+          <li><a href="#services">Ведение ООО</a></li>
+          <li><a href="#services">Маркетплейсы</a></li>
+          <li><a href="#services">Кадры и зарплата</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Контакты</h5>
+        <ul>
+          <li><a href="tel:+79630631515">+7 963 063 15 15</a></li>
+          <li><a href="https://wa.me/79630631515" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="mailto:hafizovavenera@mail.ru">Написать на почту</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>На сайте</h5>
+        <ul>
+          <li><a href="#about">О бухгалтере</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#blog">Блог</a></li>
+          <li><a href="#process">Как работаем</a></li>
+          <li><a href="#contact">Записаться</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Хафизова Венера Робертовна. Все права защищены.</span>
+      <span>Ижевск, Россия</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Form submit (POST to Google Apps Script)
+  const form = document.getElementById('contactForm');
+  const fields = document.getElementById('formFields');
+  const success = document.getElementById('formSuccess');
+  const btn = document.getElementById('submitBtn');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    // Honey-pot — если поле заполнено, это бот, тихо игнорируем
+    if (form.querySelector('[name="_honey"]').value) {
+      fields.style.display = 'none';
+      success.classList.add('active');
+      return;
+    }
+
+    // Проверяем, что URL Apps Script установлен
+    if (form.action.includes('PASTE_YOUR_GOOGLE_APPS_SCRIPT_URL_HERE')) {
+      alert('Форма ещё не настроена. Пожалуйста, напишите в WhatsApp: +7 963 063 15 15');
+      return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = 'Отправляем...';
+
+    try {
+      const data = new FormData(form);
+      // Google Apps Script не возвращает CORS-заголовки, поэтому используем no-cors.
+      // Запрос отправляется, но мы не можем прочитать ответ — оптимистично показываем успех.
+      await fetch(form.action, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: data
+      });
+      // Небольшая задержка, чтобы запрос точно ушёл
+      await new Promise(r => setTimeout(r, 600));
+      fields.style.display = 'none';
+      success.classList.add('active');
+    } catch (err) {
+      btn.disabled = false;
+      btn.textContent = 'Отправить заявку';
+      alert('Не удалось отправить форму. Пожалуйста, напишите в WhatsApp: +7 963 063 15 15');
+    }
+  });
+</script>
+
+</body>
+</html>
